@@ -42,7 +42,7 @@ namespace PlatformService.Controllers
                 return Ok(_mapper.Map<PlatformReadDto>(platformItem));
             }
 
-            return NotFound();
+            return NotFound();            
         }
 
         [HttpPost]
